@@ -292,7 +292,7 @@ MathJax = {
             $</td>
         </tr>
         <tr>
-            <td>$u(\mathbf{x}) = \sin(1 x_0)$</td>
+            <td>$u(\mathbf{x}) = a \sin(1 x_0)$</td>
             <td>$
                 \hat{u}_h
                 =
@@ -355,7 +355,7 @@ MathJax = {
             $</td>
         </tr>
         <tr>
-            <td>$u(\mathbf{x}) = \cos(1 x_0)$</td>
+            <td>$u(\mathbf{x}) = a \cos(1 x_0)$</td>
             <td>$
                 \hat{u}_h
                 =
@@ -401,6 +401,132 @@ MathJax = {
                     \begin{bmatrix} 0 \\ 0 \end{bmatrix}
                     \\
                     \begin{bmatrix} a \frac{5^2}{2} \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                0 \\ i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(\mathbf{x}) = a i \sin(1 x_0)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} a \frac{5^2}{2} \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} - a \frac{5^2}{2} \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                \end{bmatrix}
+                \odot
+                \begin{bmatrix}
+                0 \\ i
+                \end{bmatrix}
+            $</td>
+        </tr>
+        <tr>
+            <td>$u(\mathbf{x}) = a i \cos(1 x_0)$</td>
+            <td>$
+                \hat{u}_h
+                =
+                \begin{bmatrix}
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} 0 \\ a \frac{5^2}{2} \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    &
+                    \begin{bmatrix} 0 \\ 0 \end{bmatrix}
+                    \\
+                    \begin{bmatrix} 0 \\ a \frac{5^2}{2} \end{bmatrix}
                     &
                     \begin{bmatrix} 0 \\ 0 \end{bmatrix}
                     &
